@@ -1,50 +1,376 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Home</title>
+    <title>Emiliano Rivas || Home</title>
     <!-- font-awesome -->
+   
     <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- navbar -->
-
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img
+            src="./images/Screenshot 2026-01-24 204209.jpg"
+            class="nav-logo"
+            alt=""
+          />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <!-- end of navbar -->
     <!-- sidebar -->
-
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          
+          <!-- single item -->
+          <li>
+            <a href="https://www.linkedin.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+        
+         <li>
+          <a href="https://github.com/emi-web" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </aside>
     <!-- end of sidebar -->
     <!-- header -->
-
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>Emiliano Rivas</h1>
+          <h4>Graduate Full Stack Developer</h4>
+          <a href="contact.html" class="btn hero-btn">hire me</a>
+          <ul class="social-icons hero-icons">
+            
+             <li>
+          <a href="https://www.linkedin.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/emi-web" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+            <!-- end of single item -->
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img src="./images/emiliano-01.jpg" class="hero-photo" alt="Emiliano Rivas" />
+        </article>
+      </div>
+    </header>
     <!-- end of header -->
     <!-- about -->
-
-    <!-- end of about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img src="./images/emiliano-02.jpg" class="hero-photo" alt="" />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!-- section title -->
+          <!-- lorem 40 -->
+          <p>
+           I am a recent graduate based in Auckland with a genuine interest in technology and software development.
+            Through my academic work and personal projects, I have gained practical experience using React, HTML, CSS, Java, and Python.
+           I am continuously working to strengthen and expand my technical skills.
+         I am highly motivated, eager to learn, and enthusiastic about contributing to a collaborative team where I can grow under guidance while adding value through dedication and hard work. I am committed to building a long-term career in the technology sector and would sincerely welcome the opportunity to develop within a structured graduate programme.
+          </p>
+          <a href="about.html" class="btn about-btn">about me</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about about -->
     <!-- services -->
-
+    <section class="section bg-grey">
+      <div class="section-title">
+        <h2>services</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="section-center services-center">
+        <!-- single  service-->
+        <article class="service">
+          <i class="fas fa-code service-icon"></i>
+          <h4>
+Full Stack Software Developer - Coding Essentials
+            with HTML ,CSS,JavaScript
+          </h4>
+          <div class="underline"></div>
+          <p>
+            Projects with HTML,CSS,JavaScript (Level Entry)
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single  service-->
+        <article class="service">
+          <!-- fab -->
+          <i class="fab fa-sketch service-icon"></i>
+          <h4>
+Full Stack Software Developer - Back End Development</h4>
+          <div class="underline"></div>
+          <p>
+            Projects with Python , SQL ,Data-Vase
+            API and JSON.
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single  service-->
+        <article class="service">
+          <!-- fab -->
+          <i class="fab fa-android service-icon"></i>
+          <h4>
+Full Stack Software Developer - Front End Development</h4>
+          <div class="underline"></div>
+          <p>
+            Projects with React, Redux 
+             Git and GitHub ,  Agile For Software Development
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
     <!-- end of services -->
     <!-- projects -->
-
-    <!-- end of projects -->
+    <section class="section projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>latest Projets</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          Here some projects about full Stack Developer
+        </p>
+      </div>
+      <!-- end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <a href="projects.html" class="project-1">
+          <article class="project">
+            <img src="./images/project-1.jpeg" alt="" class="project-img" />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="projects.html" class="project-2">
+          <article class="project">
+            <img src="./images/project-2.jpeg" alt="" class="project-img" />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="projects.html" class="project-3">
+          <article class="project">
+            <img src="./images/project-3.jpeg" alt="" class="project-img" />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="projects.html" class="project-4">
+          <article class="project">
+            <img src="./images/project-4.jpeg" alt="" class="project-img" />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- endo of projects -->
     <!-- connect -->
-
+    <section class="connect">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        poster="./images/project-4.jpeg"
+        class="video-container"
+      >
+        <!-- <source src="./videos/connect.mp4" type="video/mp4" /> -->
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <div class="video-banner">
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
+        </div>
+        <p class="video-text">
+          Feel free for contact with me any time
+        </p>
+        <a href="contact.html" class="btn">contact me</a>
+      </div>
+    </section>
     <!-- end of connect -->
     <!-- skills -->
-
+    <section class="skills section">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>skills</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- section title -->
+      <div class="section-center skills-center">
+        <article>
+          <!-- single skill -->
+          <div class="skill">
+            <p>HTML/CSS/JAVASCRIPT</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+              <p class="skill-text">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>React</p>
+            <div class="skill-container">
+              <div class="skill-value value-50"></div>
+              <p class="skill-text skill-text-70">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Python</p>
+            <div class="skill-container">
+              <div class="skill-value value-50"></div>
+              <p class="skill-text skill-text-80">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+        </article>
+        <article>
+         
+          <!-- single skill -->
+          <div class="skill">
+            <p>API</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+              <p class="skill-text">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>SQL</p>
+            <div class="skill-container">
+              <div class="skill-value value-50"></div>
+              <p class="skill-text skill-text-70">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Git and GitHub</p>
+            <div class="skill-container">
+              <div class="skill-value value-50"></div>
+              <p class="skill-text skill-text-80">50%</p>
+            </div>
+          </div>
+          <!-- end of single skill -->
+        </article>
+      </div>
+    </section>
     <!-- end of skills -->
     <!-- timeline -->
-
+    <section class="section timeline">
+      <!-- section-title -->
+      <div class="section-title">
+        <h2>timeline</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- end of section title -->
+      <div class="section-center timeline-center">
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>2025-2026</h4>
+          <p>
+            full stack developer studies.
+          </p>
+          
+          
+        <!-- end of single timeline item -->
+      </div>
+    </section>
     <!--end of  timeline -->
-    <!-- blog -->
+    
+    <footer class="footer">
+      <ul class="social-icons">
+        <!-- single item -->
+       
+        
+        <li>
+        <a href="https://www.linkedin.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/emi-web" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <!-- end of single item -->
+      </ul>
 
-    <!--end of  blog -->
-    <!-- footer -->
-
+      <p>&copy; <span id="date"></span> Emiliano Rivas. All rights reserved.</p>
+    </footer>
     <script src="./js/app.js"></script>
   </body>
 </html>
