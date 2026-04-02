@@ -8,7 +8,6 @@
       rel="stylesheet"
       href="./fontawesome-free-5.12.1-web/css/all.min.css"
     />
-    <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -16,18 +15,17 @@
     <!-- navbar -->
     <nav class="nav" id="nav">
       <div class="nav-center">
-        <!-- nav header -->
         <div class="nav-header">
           <img
             src="./images/Screenshot 2026-01-24 204209.jpg"
             class="nav-logo"
-            alt=""
+            alt="Emiliano Rivas logo"
           />
-          <button class="nav-btn" id="nav-btn">
+          <button class="nav-btn" id="nav-btn" aria-label="Open navigation">
             <i class="fas fa-bars"></i>
           </button>
         </div>
-        <!-- nav links -->
+
         <ul class="nav-links">
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about</a></li>
@@ -37,177 +35,196 @@
       </div>
     </nav>
     <!-- end of navbar -->
+
     <!-- sidebar -->
     <aside class="sidebar" id="sidebar">
       <div>
-        <button id="close-btn" class="close-btn">
+        <button id="close-btn" class="close-btn" aria-label="Close navigation">
           <i class="fas fa-times"></i>
         </button>
+
         <ul class="sidebar-links">
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="projects.html">projects</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
+
         <ul class="social-icons">
-          <!-- single item -->
           <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.linkedin.com/feed/" class="social-icon">
+            <a
+              href="https://www.linkedin.com/feed/"
+              class="social-icon"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
-          <!-- end of single item -->
-          <!-- single item -->
           <li>
-            <a href="https://www.squarespace.com" class="social-icon">
-              <i class="fab fa-squarespace"></i>
+            <a
+              href="https://github.com/emi-web"
+              class="social-icon"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i>
             </a>
           </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.behance.com" class="social-icon">
-              <i class="fab fa-behance"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.instagram.com" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
         </ul>
       </div>
     </aside>
     <!-- end of sidebar -->
+
     <header class="projects-hero">
-      <!-- section title -->
       <div class="section-title">
         <h1>my projects</h1>
         <div class="underline"></div>
       </div>
     </header>
+
     <section class="section">
-      <!-- end of section title -->
       <div class="section-center projects-page-center">
-        <!-- single project -->
+        <!-- Project 1 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/react.jpg" alt="single project" />
+            <img src="./images/react.jpg" alt="React pet adoption project" />
             <a
               href="https://github.com/emi-web/react-projects"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View React project repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>React Project</h4>
-            <p>project about a pet adoption website made with React</p>
+            <h4>React Pet Adoption Project</h4>
+            <p>
+              A React project focused on displaying pet adoption information
+              using reusable components and interactive front-end features.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/react-projects/tree/main/starting_code"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 2 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/music-app.jpg" alt="single project" />
+            <img src="./images/music-app.jpg" alt="MyJamming music app" />
             <a
-              href="https://github.com/emi-web/react-projects"
+              href="https://github.com/emi-web/react-project2-myJamming"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View MyJamming repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>my jamming</h4>
-            <p>project about music connected with Spotify.</p>
+            <h4>MyJamming</h4>
+            <p>
+              A React music application connected to Spotify that allows users
+              to search for songs, build playlists, and save them.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://github.com/emi-web/react-project2-myJamming"
+              <span><i class="fab fa-github"></i></span>
+              <a
+                href="https://github.com/emi-web/react-project2-myJamming"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 3 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/trivia.jpg" alt="single project" />
+            <img src="./images/trivia.jpg" alt="Quiz game project" />
             <a
-              href="https://github.com/emi-web/react-projects"
+              href="https://github.com/emi-web/questions-project-1"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View quiz game repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>game quiz</h4>
-            <p>Pop music trivia game made with React</p>
+            <h4>Quiz Game</h4>
+            <p>
+              An interactive quiz project built with React that tests users with
+              pop music trivia questions in a simple and engaging interface.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://github.com/emi-web/questions-project-1"
+              <span><i class="fab fa-github"></i></span>
+              <a
+                href="https://github.com/emi-web/questions-project-1"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 4 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/new-york.jpg" alt="single project" />
+            <img src="./images/new-york.jpg" alt="New York web page project" />
             <a
               href="https://github.com/emi-web/LearningPeopleProjects"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View LearningPeopleProjects repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>New York web page</h4>
-            <p>Small web page about New York made with HTML , CSS</p>
+            <h4>New York Web Page</h4>
+            <p>
+              A small front-end project built with HTML and CSS featuring a
+              New York themed layout and responsive page structure.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/LearningPeopleProjects/tree/main/html-css-project-curse/Broadway-webPage"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 5 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/FOOD.jpg" alt="single project" />
+            <img src="./images/FOOD.jpg" alt="Recipes project" />
             <a
               href="https://github.com/emi-web/LearningPeopleProjects"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View recipes project repository"
             >
               <i class="fas fa-home"></i>
             </a>
@@ -215,164 +232,188 @@
           <div class="project-details">
             <h4>Recipes Project</h4>
             <p>
-              small project about food recipes made with html and css, more
-              projects about html and css in my github
+              A front-end project built with HTML and CSS focused on page
+              layout, styling, and presenting recipe content clearly.
             </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/LearningPeopleProjects/tree/main/html-css-project-curse/HealthyRecipes"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 6 -->
         <article class="single-project">
           <div class="project-container">
             <img
               src="./images/pizza-project-python.jpg"
-              width="350px"
-              height="300px"
-              alt="single project"
+              width="350"
+              height="300"
+              alt="Pizza Python project"
             />
             <a
               href="https://github.com/emi-web/python-projects"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Python projects repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>Pizza project</h4>
-            <p>Pizza projcet made with python.</p>
+            <h4>Pizza Python Project</h4>
+            <p>
+              A Python project that models pizza ordering logic using variables,
+              conditions, and functions.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/python-projects/tree/main/pizza-project"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 7 -->
         <article class="single-project">
           <div class="project-container">
             <img
               src="./images/shool-project.jpg"
-              width="350px"
-              height="300px"
-              alt="single project"
+              width="350"
+              height="300"
+              alt="School Python project"
             />
             <a
               href="https://github.com/emi-web/python-projects"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View school Python project repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>school project</h4>
+            <h4>School Project</h4>
             <p>
-              It’s a program that models schools.There is a general School with
-              basic information (name, level, number of students), and then more
-              specific types (Primary and High School) that inherit those basics
-              and add extra details.You can faund more projecst about python in
-              mu github
+              A Python object-oriented programming project that models different
+              types of schools using classes, inheritance, and custom methods.
             </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/python-projects/tree/main/new-teacher-in-tawn"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
-        <!-- single project -->
+
+        <!-- Project 8 -->
         <article class="single-project">
           <div class="project-container">
             <img
               src="./images/secret-messaje.jpg"
-              width="350px"
-              height="300px"
-              alt="single project"
+              width="350"
+              height="300"
+              alt="Secret message JavaScript project"
             />
             <a
               href="https://github.com/emi-web/LearningPeopleProjects/tree/main/JavaScript-Deep-Dive"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View JavaScript deep dive repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>java script project</h4>
-            <p>Secret message made with java script.</p>
+            <h4>Secret Message Project</h4>
+            <p>
+              A JavaScript project focused on string manipulation and message
+              transformation using core programming logic.
+            </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/LearningPeopleProjects/tree/main/JavaScript-Deep-Dive/secret-message"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
 
-        <!-- single project -->
+        <!-- Project 9 -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/credit-card.jpg" alt="single project" />
+            <img src="./images/credit-card.jpg" alt="Credit card checker project" />
             <a
               href="https://github.com/emi-web/LearningPeopleProjects/tree/main/JavaScript-Deep-Dive"
               class="project-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View credit card checker repository"
             >
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4>java project</h4>
+            <h4>Credit Card Checker</h4>
             <p>
-              Credit card project made with java script you can faund more
-              projects about java in my github
+              A JavaScript project that validates credit card numbers and
+              practices logic, loops, and array handling.
             </p>
             <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
+              <span><i class="fab fa-github"></i></span>
               <a
                 href="https://github.com/emi-web/LearningPeopleProjects/tree/main/JavaScript-Deep-Dive/Credit-Card-Checker"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source code</a
               >
             </div>
           </div>
         </article>
-        <!-- end of single project -->
       </div>
     </section>
+
     <!-- footer -->
     <footer class="footer">
       <ul class="social-icons">
-        <!-- end of single item -->
-        <!-- single item -->
         <li>
-          <a href="https://www.linkedin.com" class="social-icon">
+          <a
+            href="https://www.linkedin.com/feed/"
+            class="social-icon"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/emi-web" class="social-icon">
+          <a
+            href="https://github.com/emi-web"
+            class="social-icon"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
@@ -380,6 +421,7 @@
 
       <p>&copy; <span id="date"></span> Emiliano Rivas. All rights reserved.</p>
     </footer>
+
     <script src="./js/app.js"></script>
   </body>
 </html>
